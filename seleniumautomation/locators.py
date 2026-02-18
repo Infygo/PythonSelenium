@@ -1,8 +1,10 @@
 # xpath , css , ID, name, linktext, class name
 # xpath -> //tagname[@attribute = 'value']
 # css -> tagname[attribute = 'value'] -> #idvalue -> .classnamevalue
+# //tag[text()='']
 
 # .click , .send_keys, .clear, .text
+# !! Select class for static dropdowns > select_by_index, select_by_value, select_by_visible_text
 
 from selenium import webdriver
 import time
