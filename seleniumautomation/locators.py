@@ -6,6 +6,8 @@
 # .click , .send_keys, .clear, .text
 # !! Select class for static dropdowns > select_by_index, select_by_value, select_by_visible_text
 
+# locators check in web console $x("//tr/td[1]")
+
 from selenium import webdriver
 import time
 from selenium.webdriver.chrome.options import Options
