@@ -1,7 +1,12 @@
 # xpath , css , ID, name, linktext, class name
+# xpath using regex //tagname[contains(@attribute, 'something']
 # xpath -> //tagname[@attribute = 'value']
+
+
+
 # css -> tagname[attribute = 'value'] -> #idvalue -> .classnamevalue
 # //tag[text()='']
+# css  regex tagname[href*='shop']
 
 # .click , .send_keys, .clear, .text
 # !! Select class for static dropdowns > select_by_index, select_by_value, select_by_visible_text
