@@ -2,7 +2,9 @@
 # xpath using regex //tagname[contains(@attribute, 'something']
 # xpath -> //tagname[@attribute = 'value']
 
-
+# locator validation > Inspect > Console
+# xpath >$x("xpath)
+# css > $("css")
 
 # css -> tagname[attribute = 'value'] -> #idvalue -> .classnamevalue
 # //tag[text()='']
